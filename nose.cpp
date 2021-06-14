@@ -2,23 +2,24 @@
 
 using namespace std;
 
-class Nariz()
+class Nariz
 {
-	int numero;
-	int id;
-	
-	void Nariz(int numero, int id)
-	{
-		this.numero = numero;
-		this.id = id; 
+    public:
+        int numero;
+        int id;
 
-	}
+        Nariz(int numeroe, int ide)
+        {
+            numero = numeroe;
+            id = ide;
 
-	void Show()
-	{
-		cout << "este " << this.numero << " es mi numero y este " << this.id << " es mi id" << endl;
-	}
-}
+        }
+
+        void Show()
+        {
+            cout << "este " << numero << " es mi numero y este " << id << " es mi id" << endl;
+        }
+};
 
 int main()
 {
